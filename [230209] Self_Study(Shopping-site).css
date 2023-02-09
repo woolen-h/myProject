@@ -1,0 +1,58 @@
+ul,
+ol,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+#header, #main, #bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#header,
+#header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+#header ul {
+    position: absolute;
+    left: 0;
+}
+
+#topIcon {
+    position: absolute;
+    right: 0;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    font-size: large;
+}
+
+#mainTitle {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    font-size: xx-large;
+    justify-content: center;
+}
+
+#category, #sort {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
