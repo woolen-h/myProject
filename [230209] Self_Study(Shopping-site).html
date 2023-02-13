@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>woolen-h-shopping-site.html</title>
     <link rel="stylesheet" href="[230209] Self_Study(Shopping-site).css">
 </head>
@@ -25,7 +26,7 @@
                 </a>
             </ul>
             <div id="title">
-                <a>WOOLEN</a>
+                <a href="#">WOOLEN</a>
             </div>
             <div id="topIcon">
                 <a href="#"><img src="#" alt="Search"></a>
@@ -56,52 +57,68 @@
             </div>
             <div id="firstLine">
                 <div id="num1md">
-                    <div id="product01"></div>
+                    <a href="#">
+                        <div id="product01"></div>
+                    </a>
                     <div>
-                        <a href="#">-title</a><br>
-                        00,000
+                        <a href="#">product_num01</a><br>
+                        15,000
                     </div>
                 </div>
                 <div id="num2md">
-                    <div id="product02"></div>
+                    <a href="#">
+                        <div id="product02"></div>
+                    </a>
                     <div>
-                        <a href="#">-title</a><br>
-                        00,000
+                        <a href="#">product_num02</a><br>
+                        18,000
                     </div>
                 </div>
                 <div id="num3md">
-                    <div id="product03"></div>
+                    <a href="#">
+                        <div id="product03"></div>
+                    </a>
                     <div>
-                        <a href="#">-title</a><br>
-                        00,000
+                        <a href="#">product_num03</a><br>
+                        21,000
                     </div>
                 </div>
             </div>
             <div id="secondLine">
                 <div id="num4md">
-                    <div id="product04"></div>
+                    <a href="#">
+                        <div id="product04"></div>
+                    </a>
                     <div>
-                        <a href="#">-title</a><br>
-                        00,000
+                        <a href="#">product_num04</a><br>
+                        25,000
                     </div>
                 </div>
                 <div id="num5md">
-                    <div id="product05"></div>
-                    <a href="#">-title</a>
-                    00,000
+                    <a href="#">
+                        <div id="product05"></div>
+                    </a>
+                    <a href="#">product_num05</a>
+                    16,000
                 </div>
                 <div id="num6md">
-                    <div id="product06"></div>
+                    <a href="#">
+                        <div id="product06"></div>
+                    </a>
                     <div>
-                        <a href="#">-title</a><br>
-                        00,000
+                        <a href="#">product_num06</a><br>
+                        20,000
                     </div>
                 </div>
             </div>
             <div id="pageflip">
-                <button> ← </button>
-                Page (현재 페이지) of (끝 페이지)
-                <button> → </button>
+                <button onclick="location.href='#'">
+                    ←
+                </button>&nbsp;&nbsp;
+                Page (현재 페이지) of (끝 페이지)&nbsp;&nbsp;
+                <button onclick="location.href='#'">
+                    →
+                </button>
             </div>
         </div><!-- main end -->
         <hr>
@@ -126,7 +143,7 @@
             <div id="bNewsletter">
                 <h3>Newsletter</h3>
                 <input type="text" name="Newsletter" id="Newsletter" value="Email - Address"><br>
-                <button id="bConf">Confirm</button>
+                <button id="bConf" onclick="location.href='#'">Confirm</button>
             </div>
             <div id="bCoinfo">
                 <h3> Info </h3>

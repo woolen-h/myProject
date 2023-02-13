@@ -1,9 +1,22 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 ul,
 ol,
 li {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+button {
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 body {
@@ -27,11 +40,15 @@ body {
 #header ul {
     position: absolute;
     left: 0;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 #topIcon {
     position: absolute;
     right: 0;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 #title {
@@ -46,13 +63,14 @@ body {
 #main {
     display: flex;
     flex-direction: column;
-    height: 800px;
 }
 
 #mainTitle {
     display: flex;
     width: 100%;
     font-size: xx-large;
+    margin-top: 30px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -86,7 +104,7 @@ body {
 #product01 {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(200, 36, 36);
 }
 
 #num2md {
@@ -102,7 +120,7 @@ body {
 #product02 {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(28, 177, 88);
 }
 
 #num3md {
@@ -118,7 +136,7 @@ body {
 #product03 {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(44, 40, 181);
 }
 
 #secondLine {
@@ -141,7 +159,7 @@ body {
 #product04 {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(138, 95, 231);
 }
 
 #num5md {
@@ -157,7 +175,7 @@ body {
 #product05 {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(92, 210, 228);
 }
 
 #num6md {
@@ -173,12 +191,13 @@ body {
 #product06 {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: rgb(125, 233, 113);
 }
 
 #pageflip {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 #bottom {
@@ -193,4 +212,16 @@ body {
 #bCoinfo {
     text-align: center;
     width: 300px;
+    margin-bottom: 20px;
+}
+
+#Icon {
+    text-align: right;
+    margin-right: 10px;
+}
+
+#footer p {
+    margin-top: 0;
+    margin-right: 10px;
+    text-align: right;
 }
