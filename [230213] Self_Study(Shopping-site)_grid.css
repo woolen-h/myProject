@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#header {
+    display: grid;
+    grid-gap: 40px;
+    padding: 20px 45px 20px 45px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#logo {
+    font-size: 30px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+#category {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    font-weight: Bold;
+}
+
+#search {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+    font-weight: Bold;
+}
+
+input[type="search"] {
+    width: 280px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#contents1 {
+    grid-gap: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 45px 45px 45px;
+}
+
+#title {
+    font-size: 30pt;
+    font-weight: 500;
+}
+
+#c1 {
+    font-size: 20pt;
+}
+#c2 {
+    font-weight: 600;
+}
+#c3 {
+    margin-top: 10px;
+}
+
+#contents2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding-top: 40px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 40px;
+}
+
+#c4 {
+    font-size: 20pt;
+}
+#c5 {
+    font-weight: 600;
+}
+#c6 {
+    margin-top: 10px;
+}
+
+#img1 {
+    background-image: url(./img/eric-muhr-zlYgNmhfP4Y-unsplash.jpg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+#c3-1 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#img2 {
+    background-image: url(./img/zetong-li-vHIOWBWo3rc-unsplash.jpg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+
+#c4-1 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#img3 {
+    background-image: url(./img/yuanpang-wa-cFAQQUCE6W0-unsplash.jpg);
+    background-size: cover;
+    width: auto;
+    height: 200px;
+}
+
+#c5-1 {
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
