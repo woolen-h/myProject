@@ -4,6 +4,22 @@ body {
     background-color: black;
     color: white;
     font-family: 'Cormorant Garamond', serif;
+    box-sizing: border-box;
+    font-display: fallback;
+}
+
+#body_back {
+    background-color: blue;
+    border-radius: 50%;
+    width: 0.1vw;
+    height: 0.1vh;
+    position: absolute;
+    z-index: -10;
+}
+
+body:hover #body_back {
+    transform: scale(3000.0);
+    transition: 1s;
 }
 
 #header {
@@ -50,14 +66,18 @@ input[type="search"] {
 #title {
     font-size: 30pt;
     font-weight: 500;
+    animation-name: fadeInDown;
+    animation-duration: 2s;
 }
 
 #c1 {
     font-size: 20pt;
 }
+
 #c2 {
     font-weight: 600;
 }
+
 #c3 {
     margin-top: 10px;
 }
@@ -75,11 +95,17 @@ input[type="search"] {
 #c4 {
     font-size: 20pt;
 }
+
 #c5 {
     font-weight: 600;
 }
+
 #c6 {
     margin-top: 10px;
+}
+
+#column3 {
+    display: inline-block;
 }
 
 #img1 {
@@ -88,10 +114,67 @@ input[type="search"] {
     width: auto;
     height: 200px;
 }
-#c3-1 {
+
+.dropdown {
+    position: relative;
+    display: inline-block;
     font-weight: 600;
     margin-top: 20px;
-    margin-bottom: 10px;
+    color: #c1cfd2;
+    cursor: pointer;
+    transition: color .5s ease-in-out,
+        box-shadow .5s ease-in-out;
+}
+
+.dropdown:hover {
+    display: block;
+    box-shadow: inset 300px 0 0 0 #c1cfd2;
+    color: rgb(0, 0, 0);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content p {
+    padding: 5px;
+    display: block;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+
+    animation-name: dropdown;
+    animation-duration: 1000ms;
+    animation-direction: normal;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@keyframes dropdown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
 }
 
 #img2 {
@@ -101,21 +184,9 @@ input[type="search"] {
     height: 200px;
 }
 
-#c4-1 {
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 #img3 {
     background-image: url(./img/yuanpang-wa-cFAQQUCE6W0-unsplash.jpg);
     background-size: cover;
     width: auto;
     height: 200px;
-}
-
-#c5-1 {
-    font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 10px;
 }
