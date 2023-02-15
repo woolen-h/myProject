@@ -6,6 +6,7 @@ body {
     font-family: 'Cormorant Garamond', serif;
     box-sizing: border-box;
     font-display: fallback;
+    overflow: hidden;
 }
 
 #body_back {
@@ -53,7 +54,7 @@ input[type="search"] {
     width: 280px;
     border: 1px solid white;
     border-radius: 10px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 #contents1 {
