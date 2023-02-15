@@ -29,7 +29,7 @@ a:hover {
 
 body:hover #body_back {
     transform: scale(3000.0);
-    transition: 1s;
+    transition: 2.5s;
 }
 
 #header {
