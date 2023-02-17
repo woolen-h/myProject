@@ -1,8 +1,4 @@
 // 로그인 시 팝업 구현
-window.onload = function() {
-    showPopup();
-  };
-
 function showPopup() {
     var popup = document.getElementById("popup");
     popup.innerHTML = "로그인 되었습니다.";
@@ -15,3 +11,6 @@ function showPopup() {
     popup.style.display = "none";
   }
 
+  window.onload = function() {
+    showPopup();
+  };

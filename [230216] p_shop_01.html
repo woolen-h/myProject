@@ -6,8 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="[230217] p_shop_01.css">
-    <title>Document</title>
+    <script src="[230217] p_shop_01.js"></script>
+    <title>29cm_practice</title>
 </head>
 
 <body>
@@ -15,29 +22,25 @@
         <header id="headerBox">
             <div id="logo">
                 <a class="brand-logo" href="#">LOGO</a> <!-- 로고 폰트를 적용해주세요 -->
-                <div id="myPage">
+                <a href="#"></a><div id="myPage">
                     <img src="#.jpg" alt="myPage-icon"> <!--마이페이지 아이콘-->
                     <strong class="mP-txt">MY PAGE</strong>
-                </div>
-                <div id="myLike">
+                </div></a>
+                <a href="#"><div id="myLike">
                     <img src="#.jpg" alt="myLike-icon"> <!--마이라이크 아이콘-->
                     <strong class="mL-txt">MY LIKE</strong>
-                </div>
-                <div id="shoppingBag">
+                </div></a>
+                <a href="#"></a><div id="shoppingBag">
                     <img src="#.jpg" alt="shoppingBag-icon"> <!--장바구니 아이콘-->
                     <strong class="sB-txt">SHOPPING BAG</strong>
-                </div>
-                <div id="loginOut">
+                </div></a>
+                <a href="#"><div id="loginOut">
                     <img src="#.jpg" alt="loginOut-icon"> <!-- loginout 아이콘-->
                     <strong class="lI-txt">LOGIN</strong>
                     <strong class="lO-txt">LOGOUT</strong>
-                    <!-- 로그인 되었을 때는 자동 로그아웃 활성화 -->
-                    <!-- alert() 로그인 / 로그아웃 둘 다 구현하기 
-                         └ 로그인은 alert() 말고 팝업으로 잠깐 떴다가 사라지게 하기 -->
-                         <div id="login_popup">
-                            
-                         </div> <!-- 로그인 팝업 -->
-                </div>
+                    <!-- 로그인 되었을 때는 로그아웃 버튼 활성화 -->
+                    <div id="popup"></div> <!-- 로그인 팝업 -->
+                </div></a>
             </div> <!-- logo end -->
             <div id="big_menu">
                 <a href="#"><span>Special-Order</span></a> <!-- 빅메뉴 1 -->
