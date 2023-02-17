@@ -5,7 +5,6 @@ html {
 
 img {
     background-color: yellow;
-    width: 100%;
     border: 1px dotted magenta;
 } /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%나중에 지워주세요*/
 
@@ -64,8 +63,27 @@ a {
     display: flex;
 }
 
+#logo-iconGr img {
+    width: 15px;
+}
+
 #big_menu {
     justify-content: space-between;
+}
+
+#bM-2 {
+    display: flex;
+    align-items: center;
+}
+
+#bM-2 button {
+    border: 0;
+    outline: 0;
+}
+
+img[alt=search-icon] {
+    width: 40px
+    heiget: 40px
 }
 
 #small_menu {

@@ -14,3 +14,14 @@ function showPopup() {
   window.onload = function() {
     showPopup();
   };
+
+  // search-icon 누를 시 search 텍스트 박스 display
+
+  function showSearch() {
+    var x = document.getElementById("searchbox");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
