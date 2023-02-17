@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;200;300;400;500;600;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="[230217] p_shop_01.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <script src="[230217] p_shop_01.js"></script>
     <title>29cm_practice</title>
 </head>
@@ -62,15 +63,16 @@
                     <a href="#"><span>Showcase</span></a> <!-- 빅메뉴 2 -->
                     <a href="#"><span>PT</span></a> <!-- 빅메뉴 3 -->
                     <a href="#"><span>Welove</span></a> <!-- 빅메뉴 4 -->
-                </div>
+                </div> <!-- bM-1 end -->
                 <div id="bM-2">
                     <div id="searchbox" style="display:none">
-                        <input type="search" placeholder="Search Product">
-                    </div>
-                    <button onclick="showSearch()"><img
-                            src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-                            alt="search-icon"></button>
-                </div>
+                        <input type="search" id="search-input" placeholder="Search Product">
+                    </div> <!-- 서치박스 end -->
+                    <div id="search-display">
+                        <button id="search-btn" onclick="showSearch()">
+                        </button>
+                    </div> <!-- 서치버튼 end -->
+                </div> <!-- bM-2 end -->
             </div> <!-- big_menu end -->
             <div id="small_menu">
                 <a class="s_m_li" href="#"><span>BEST</span></a>
@@ -138,31 +140,24 @@
                 <div id="col_2"> <!-- **************************중간 컬럼 -->
                     <div id="con_6">
                         <a href="#">
-                            <div>
+                            <div id="top-image">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_6_img">
-                                <h1 class="feedTitle">product-title</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
-                                    perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
-                                    aspernatur non aliquam, necessitatibus eveniet voluptas harum incidunt ipsam rem.
-                                    국교는 인정되지 아니하며, 종교와 정치는 분리된다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다.
-
-                                    국회의원은 법률이 정하는 직을 겸할 수 없다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다.
-                                </p>
                             </div>
                         </a>
                     </div> <!-- con_6 end -->
                     <div id="con_7">
                         <a href="#">
                             <div>
-                                <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-                                    alt="con_7_img">
+                                <div id="col_Img">
+                                    <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                                        alt="con_7_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
                                     aspernatur non aliquam, necessitatibus eveniet voluptas harum incidunt ipsam rem.
                                     국교는 인정되지 아니하며, 종교와 정치는 분리된다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다.
-
                                     국회의원은 법률이 정하는 직을 겸할 수 없다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다.
                                 </p>
                             </div>
@@ -171,14 +166,15 @@
                     <div id="con_8">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_8_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
                                     aspernatur non aliquam, necessitatibus eveniet voluptas harum incidunt ipsam rem.
                                     국교는 인정되지 아니하며, 종교와 정치는 분리된다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다.
-
                                     국회의원은 법률이 정하는 직을 겸할 수 없다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다.
                                 </p>
                             </div>
@@ -187,14 +183,15 @@
                     <div id="con_9">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_9_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
                                     aspernatur non aliquam, necessitatibus eveniet voluptas harum incidunt ipsam rem.
                                     국교는 인정되지 아니하며, 종교와 정치는 분리된다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다.
-
                                     국회의원은 법률이 정하는 직을 겸할 수 없다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다.
                                 </p>
                             </div>
@@ -203,14 +200,15 @@
                     <div id="con_10">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_10_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
                                     aspernatur non aliquam, necessitatibus eveniet voluptas harum incidunt ipsam rem.
                                     국교는 인정되지 아니하며, 종교와 정치는 분리된다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다.
-
                                     국회의원은 법률이 정하는 직을 겸할 수 없다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다.
                                 </p>
                             </div>
@@ -220,25 +218,19 @@
                 <div id="col_3"> <!-- **************************우측 컬럼 -->
                     <div id="con_11">
                         <a href="#">
-                            <div>
+                            <div id="top-image">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_11_img">
-                                <h1 class="feedTitle">product-title</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
-                                    perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
-                                    aspernatur non aliquam, necessitatibus eveniet voluptas harum incidunt ipsam rem.
-                                    국교는 인정되지 아니하며, 종교와 정치는 분리된다. 헌법에 의하여 체결·공포된 조약과 일반적으로 승인된 국제법규는 국내법과 같은 효력을 가진다.
-
-                                    국회의원은 법률이 정하는 직을 겸할 수 없다. 선거운동은 각급 선거관리위원회의 관리하에 법률이 정하는 범위안에서 하되, 균등한 기회가 보장되어야 한다.
-                                </p>
                             </div>
                         </a>
                     </div> <!-- con_11 end -->
                     <div id="con_12">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_12_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
@@ -253,8 +245,10 @@
                     <div id="con_13">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_13_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
@@ -269,8 +263,10 @@
                     <div id="con_14">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_14_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
@@ -285,8 +281,10 @@
                     <div id="con_15">
                         <a href="#">
                             <div>
+                                <div id="col_Img">
                                 <img src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
                                     alt="con_15_img">
+                                </div>
                                 <h1 class="feedTitle">product-title</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus cumque nisi
                                     perferendis nesciunt odit doloremque quaerat omnis quae accusantium molestiae
