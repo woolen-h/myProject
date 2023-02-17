@@ -1,6 +1,90 @@
 html {
     font-family: 'IBM Plex Sans KR', sans-serif;
+    padding: 30px;
 }
+
+div,
+class,
+a {
+    border: 1px solid red;
+    /*전체 페이지 레이아웃 사이즈 확인*/
+    text-decoration: none;
+    color: black;
+}
+
 .brand-logo {
     font-weight: 700;
+}
+
+#page {
+    display: grid;
+    border: 1px solid red;
+    /*전체 페이지 레이아웃 사이즈 확인*/
+}
+
+#headerBox {
+    grid-template-columns: auto;
+    /*세로로 페이지 나눔 : 이후에 height 체크해주세요.*/
+    border: 1px solid red;
+    /*전체 페이지 레이아웃 사이즈 확인*/
+}
+
+#logo,
+#big_menu,
+#small_menu {
+    display: flex;
+}
+
+#logo {
+    justify-content: space-between;
+}
+
+#logo-iconGr {
+    display: flex;
+}
+
+#big_menu {
+    justify-content: space-between;
+}
+
+#small_menu {
+    justify-content: space-between;
+}
+
+#feed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#col_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#col_1 div {
+    height: 450px;
+}
+
+#col_2 div {
+    height: 450px;
+}
+
+#col_3 div {
+    height: 450px;
+}
+
+#f_Top {
+    display: flex;
+    font-size: 10pt;
+}
+
+#f_Middle {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10pt;
+}
+
+#f_Bottom {
+    font-size: 9pt;
+    color: rgb(178, 178, 178);
 }
