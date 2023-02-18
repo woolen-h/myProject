@@ -183,6 +183,7 @@ input[type="search"] {
 .feedTitle {
   font-size: 20pt;
   font-weight: 600;
+  margin-bottom: 10px;
 }
 
 footer img {
