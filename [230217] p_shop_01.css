@@ -1,184 +1,210 @@
 html {
-    font-family: 'IBM Plex Sans KR', sans-serif;
-    padding: 30px;
+  font-family: "IBM Plex Sans KR", sans-serif;
+  padding: 30px;
 }
 
 img {
-    background-color: yellow;
-    border: 1px dotted magenta;
+  background-color: yellow;
+  border: 1px dotted magenta;
 }
 
 /*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%나중에 지워주세요*/
 
-[alt*=icon] {
-    size: 15px;
+[alt*="icon"] {
+  size: 15px;
 }
 
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 div {
-    border: 1px solid red;
-    /*전체 페이지 레이아웃 사이즈 확인*/
+  border: 1px solid red;
+  /*전체 페이지 레이아웃 사이즈 확인*/
 }
 
 class {
-    border: 1px solid blue;
-    /*전체 페이지 레이아웃 사이즈 확인*/
+  border: 1px solid blue;
+  /*전체 페이지 레이아웃 사이즈 확인*/
 }
 
 a {
-    border: 1px solid greenyellow;
-    /*전체 페이지 레이아웃 사이즈 확인*/
+  border: 1px solid greenyellow;
+  /*전체 페이지 레이아웃 사이즈 확인*/
 }
 
 .brand-logo {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 #page {
-    display: grid;
-    border: 1px solid red;
-    /*전체 페이지 레이아웃 사이즈 확인*/
+  display: grid;
+  border: 1px solid red;
+  /*전체 페이지 레이아웃 사이즈 확인*/
 }
 
 #headerBox {
-    grid-template-columns: auto;
-    /*세로로 페이지 나눔 : 이후에 height 체크해주세요.*/
-    border: 1px solid red;
-    /*전체 페이지 레이아웃 사이즈 확인*/
+  grid-template-columns: auto;
+  /*세로로 페이지 나눔 : 이후에 height 체크해주세요.*/
+  border: 1px solid red;
+  /*전체 페이지 레이아웃 사이즈 확인*/
 }
 
 #logo,
 #big_menu,
 #small_menu {
-    display: flex;
+  display: flex;
 }
 
 #logo {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 #logo-iconGr {
-    display: flex;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 #logo-iconGr img {
-    width: 15px;
+  width: 15px;
+}
+
+#logo-iconGr div {
+  margin-left: 20px;
+  font-size: 10pt;
+  color: rgb(137, 137, 137);
+  
 }
 
 #big_menu {
-    justify-content: space-between;
+  justify-content: space-between;
+}
+
+#bM-1 {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 36pt;
+  margin-bottom: 40px;
 }
 
 #bM-2 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
 }
 
 #bM-2 button {
-    border: 0;
-    outline: 0;
-    width: 40px;
-    height: 40px;
-    background-image: url(#.jpg);
-    background-color: greenyellow;
+  border: 0;
+  outline: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(#.jpg);
+  background-color: greenyellow;
 }
 
 input[type="search"] {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-    border-bottom: 3px solid black;
-    outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
 }
 
 #searchbox {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 #search-input {
-    width: 500px;
+  width: 250px;
 }
 
 #small_menu {
-    justify-content: space-between;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 #feed {
-    display: grid;
-    grid-template-columns: 33.33% 33.33% 33.33%;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
 }
 
 #feed p {
-    font-size: 12pt;
-    line-height: 170%;
+  font-size: 12pt;
+  line-height: 170%;
 }
 
 #col_1 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #col_1 img {
-    width: 100%;
+  width: 100%;
 }
 
 #col_2 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #col_2 img {
-    width: 100%;
+  width: 100%;
 }
 
 #top-image {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 #top-image img {
-    width: 100%;
+  width: 100%;
 }
 
 #col_Img {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #col_3 {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #col_3 img {
-    width: 100%;
+  width: 100%;
 }
 
 .feedTitle {
-    font-size: 20pt;
-    font-weight: 600;
+  font-size: 20pt;
+  font-weight: 600;
 }
 
 footer img {
-    width: 30px;
+  width: 30px;
 }
 
-
 #f_Top {
-    display: flex;
-    font-size: 10pt;
+  display: flex;
+  font-size: 10pt;
+}
+
+#f_CS button {
+  margin-right: 10px;
+}
+
+#f_Inf {
+  display: flex;
+  justify-content: space-between;
 }
 
 #f_Middle {
-    display: flex;
-    justify-content: space-between;
-    font-size: 10pt;
+  display: flex;
+  justify-content: space-between;
+  font-size: 10pt;
 }
 
 #f_Bottom {
-    font-size: 9pt;
-    color: rgb(178, 178, 178);
+  font-size: 9pt;
+  color: rgb(178, 178, 178);
 }

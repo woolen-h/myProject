@@ -19,7 +19,7 @@ window.onload = function () {
 
 function showSearch() {
   var x = document.getElementById("searchbox");
-  const searchInput = document.getElementById('search-input');
+  const searchInput = document.getElementById("search-input");
   if (x.style.display === "none") {
     x.style.display = "block";
     searchInput.focus();
@@ -32,6 +32,6 @@ function showSearch() {
 const search = document.getElementById("search");
 const searchBtn = document.getElementById("search-btn");
 
-searchBtn.addEventListener("click", function() {
+searchBtn.addEventListener("click", function () {
   search.focus();
 });
