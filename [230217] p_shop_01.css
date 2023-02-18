@@ -210,7 +210,17 @@ footer img {
   font-size: 10pt;
 }
 
+.f_Middle ul li {
+  line-height: 200%;
+}
+
 .f_Bottom {
   font-size: 9pt;
+  line-height: 170%;
   color: rgb(178, 178, 178);
+}
+
+.f_Det_btn {
+  margin-left: 5px;
+  font-size: 7pt;
 }
