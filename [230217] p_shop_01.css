@@ -13,6 +13,7 @@ a {
 }
 
 img {
+  display: block;
   width: 100%;
   object-fit: cover;
 }
@@ -57,12 +58,13 @@ img {
 
 .big_menu {
   justify-content: space-between;
+  font-weight: 800;
 }
 
 .bM-1 {
   width: 75%;
   display: flex;
-  justify-content: space-between;
+  gap: 30px;
   font-size: 36pt;
   margin-bottom: 40px;
 }
@@ -91,17 +93,29 @@ input[type="search"] {
   outline: none;
 }
 
-.searchbox {
+#searchbox {
   padding-right: 20px;
 }
 
-.search-input {
+#search-input {
   width: 250px;
 }
 
 .small_menu {
   justify-content: space-between;
+  width: 77.8%;
   margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.line {
+  font-weight: 300;
+}
+
+.s_m_li_2 {
+  font-weight: 300;
+  font-style: italic;
 }
 
 .feed {
@@ -140,9 +154,6 @@ input[type="search"] {
   width: 100%;
 }
 
-.top-image {
-  overflow: hidden;
-}
 
 .top-image img {
   width: 100%;

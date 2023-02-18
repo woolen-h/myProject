@@ -18,7 +18,6 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     />
-    <script src="[230217] p_shop_01.js"></script>
     <title>29cm_practice</title>
   </head>
 
@@ -32,7 +31,7 @@
             <a href="#">
               <div class="myPage">
                 <img
-                  src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  src="-"
                   alt="myPage-icon"
                 />
                 <!--마이페이지 아이콘-->
@@ -42,7 +41,7 @@
             <a href="#">
               <div class="myLike">
                 <img
-                  src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  src="-"
                   alt="myLike-icon"
                 />
                 <!--마이라이크 아이콘-->
@@ -52,7 +51,7 @@
             <a href="#">
               <div class="shoppingBag">
                 <img
-                  src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  src="-"
                   alt="shoppingBag-icon"
                 />
                 <!--장바구니 아이콘-->
@@ -62,14 +61,14 @@
             <a href="#">
               <div class="loginOut">
                 <img
-                  src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                  src="-"
                   alt="loginOut-icon"
                 />
                 <!-- loginout 아이콘-->
                 <strong class="lI-txt">LOGIN</strong>
                 <strong class="lO-txt">LOGOUT</strong>
                 <!-- 로그인 되었을 때는 로그아웃 버튼 활성화 -->
-                <div class="popup"></div>
+                <div id="popup"></div>
                 <!-- 로그인 팝업 -->
               </div>
             </a>
@@ -89,16 +88,16 @@
           </div>
           <!-- bM-1 end -->
           <div class="bM-2">
-            <div class="searchbox" style="display: none">
+            <div id="searchbox" style="display: none">
               <input
                 type="search"
-                class="search-input"
+                id="search-input"
                 placeholder="Search Product"
               />
             </div>
             <!-- 서치박스 end -->
-            <div class="search-display">
-              <button class="search-btn" onclick="showSearch()"></button>
+            <div id="search-display">
+              <button id="search-btn" onclick="showSearch()"></button>
             </div>
             <!-- 서치버튼 end -->
           </div>
@@ -118,7 +117,7 @@
           <a class="s_m_li" href="#"><span>LEISURE</span></a>
           <a class="s_m_li" href="#"><span>KIDS</span></a>
           <a class="s_m_li" href="#"><span>CULTURE</span></a>
-          <span>|</span>
+          <span class="line">|</span>
           <a class="s_m_li_2" href="#"><span>Event</span></a>
           <a class="s_m_li_2" href="#"><span>Lookbook</span></a>
         </div>
@@ -134,7 +133,7 @@
               <a href="#">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1568191009535-7d8b407d389a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
                     alt="con_1_img"
                   />
                 </div>
@@ -145,7 +144,7 @@
               <a href="#">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1520052205864-92d242b3a76b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
                     alt="con_2_img"
                   />
                 </div>
@@ -156,7 +155,7 @@
               <a href="#">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1530177150700-84cd9a3b059b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
                     alt="con_3_img"
                   />
                 </div>
@@ -167,7 +166,7 @@
               <a href="#">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1536316754104-90daa92e4eb0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt="con_4_img"
                   />
                 </div>
@@ -178,7 +177,7 @@
               <a href="#">
                 <div>
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1504548840739-580b10ae7715?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt="con_5_img"
                   />
                 </div>
@@ -193,7 +192,7 @@
               <a href="#">
                 <div class="top-image">
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1516642898673-edd1ced08e87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt="con_6_img"
                   />
                 </div>
@@ -205,7 +204,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1536009190979-329b94ad4d57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                       alt="con_7_img"
                     />
                   </div>
@@ -231,7 +230,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1167&q=80"
                       alt="con_8_img"
                     />
                   </div>
@@ -257,7 +256,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1586211082529-b7c6b640abff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
                       alt="con_9_img"
                     />
                   </div>
@@ -283,7 +282,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1654679210948-1d864695390c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1331&q=80"
                       alt="con_10_img"
                     />
                   </div>
@@ -312,7 +311,7 @@
               <a href="#">
                 <div class="top-image">
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1530762312300-888baa333d74?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1168&q=80"
                     alt="con_11_img"
                   />
                 </div>
@@ -324,7 +323,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1619894129368-ecd7d69c3eed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                       alt="con_12_img"
                     />
                   </div>
@@ -349,7 +348,7 @@
               <a href="#">
                 <div class="col_Img">
                   <img
-                    src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    src="https://images.unsplash.com/photo-1504805572947-34fad45aed93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                     alt="con_13_img"
                   />
                 </div>
@@ -376,7 +375,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1596868801151-5d26796963b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                       alt="con_14_img"
                     />
                   </div>
@@ -402,7 +401,7 @@
                 <div>
                   <div class="col_Img">
                     <img
-                      src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                      src="https://images.unsplash.com/photo-1544194215-541c2d3561a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
                       alt="con_15_img"
                     />
                   </div>
@@ -444,22 +443,22 @@
           <p>
             <a href="#"
               ><img
-                src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                src="-"
                 alt="insta-icon"
             /></a>
             <a href="#"
               ><img
-                src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                src="-"
                 alt="youtb-icon"
             /></a>
             <a href="#"
               ><img
-                src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                src="-"
                 alt="app-apl-icon"
             /></a>
             <a href="#"
               ><img
-                src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                src="-"
                 alt="app-adr-icon"
             /></a>
           </p>
@@ -588,7 +587,7 @@
           <div class="f_Det_box">
             <a href="#"
               ><img
-                src="https://images.unsplash.com/photo-1676570092589-a6c09ecbb373?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                src="-"
                 alt="inipay_Icon"
             /></a>
             KG 에스크로<br />
@@ -599,6 +598,8 @@
       <!-- footer end -->
     </div>
     <!-- page end -->
+    
+    <script src="[230217] p_shop_01.js"></script>
   </body>
   <!-- body end -->
 </html>
