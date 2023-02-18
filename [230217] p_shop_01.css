@@ -5,6 +5,7 @@ html {
 
 [alt*="icon"] {
   size: 15px;
+  margin-right: 5px;
 }
 
 a {
@@ -50,6 +51,7 @@ img {
 }
 
 .logo-iconGr div {
+  display: flex;
   margin-left: 20px;
   font-size: 10pt;
   color: rgb(137, 137, 137);
@@ -134,7 +136,7 @@ input[type="search"] {
   width: 33.33%;
   flex-direction: column;
   padding-right: 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(204, 204, 204);
 }
 
 .col_1 img {
@@ -147,7 +149,7 @@ input[type="search"] {
   flex-direction: column;
   margin-left: 20px;
   padding-right: 20px;
-  border-right: 1px solid black;
+  border-right: 1px solid rgb(204, 204, 204);
 }
 
 .col_2 img {
