@@ -23,35 +23,35 @@ body {
     margin: 0;
 }
 
-#header,
-#main,
-#bottom {
+.header,
+.main,
+.bottom {
     display: flex;
     flex-direction: column;
 
 }
 
-#header,
-#header ul {
+.header,
+.header ul {
     display: flex;
     flex-direction: row;
 }
 
-#header ul {
+.header ul {
     position: absolute;
     left: 0;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-#topIcon {
+.topIcon {
     position: absolute;
     right: 0;
     margin-top: 10px;
     margin-right: 10px;
 }
 
-#title {
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,12 +60,12 @@ body {
     font-size: large;
 }
 
-#main {
+.main {
     display: flex;
     flex-direction: column;
 }
 
-#mainTitle {
+.mainTitle {
     display: flex;
     width: 100%;
     font-size: xx-large;
@@ -74,24 +74,24 @@ body {
     justify-content: center;
 }
 
-#topbox {
+.topbox {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-#category {
+.category {
     margin-right: 100px;
 }
 
-#firstLine {
+.firstLine {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-#num1md {
+.num1md {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -101,13 +101,13 @@ body {
     flex-direction: column;
 }
 
-#product01 {
+.product01 {
     width: 200px;
     height: 200px;
     background-color: rgb(200, 36, 36);
 }
 
-#num2md {
+.num2md {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -117,13 +117,13 @@ body {
     flex-direction: column;
 }
 
-#product02 {
+.product02 {
     width: 200px;
     height: 200px;
     background-color: rgb(28, 177, 88);
 }
 
-#num3md {
+.num3md {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -133,20 +133,20 @@ body {
     flex-direction: column;
 }
 
-#product03 {
+.product03 {
     width: 200px;
     height: 200px;
     background-color: rgb(44, 40, 181);
 }
 
-#secondLine {
+.secondLine {
     display: flex;
     justify-content: center;
     text-align: center;
     position: relative;
 }
 
-#num4md {
+.num4md {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -156,13 +156,13 @@ body {
     flex-direction: column;
 }
 
-#product04 {
+.product04 {
     width: 200px;
     height: 200px;
     background-color: rgb(138, 95, 231);
 }
 
-#num5md {
+.num5md {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -172,13 +172,13 @@ body {
     flex-direction: column;
 }
 
-#product05 {
+.product05 {
     width: 200px;
     height: 200px;
     background-color: rgb(92, 210, 228);
 }
 
-#num6md {
+.num6md {
     width: 300px;
     height: 300px;
     margin: 10px;
@@ -188,39 +188,39 @@ body {
     flex-direction: column;
 }
 
-#product06 {
+.product06 {
     width: 200px;
     height: 200px;
     background-color: rgb(125, 233, 113);
 }
 
-#pageflip {
+.pageflip {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
 }
 
-#bottom {
+.bottom {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
 
-#bMenu,
-#bNewsletter,
-#bCoinfo {
+.bMenu,
+.bNewsletter,
+.bCoinfo {
     text-align: center;
     width: 300px;
     margin-bottom: 20px;
 }
 
-#Icon {
+.Icon {
     text-align: right;
     margin-right: 10px;
 }
 
-#footer p {
+.footer p {
     margin-top: 0;
     margin-right: 10px;
     text-align: right;
