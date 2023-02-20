@@ -7,7 +7,7 @@ body {
     overflow: hidden;
 }
 
-#header {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -21,28 +21,28 @@ body {
     font-family: 'Abril Fatface', cursive;
 }
 
-#h_left,
-#h_right {
+.h_left,
+.h_right {
     height: 100%;
 }
 
-#h_left {
+.h_left {
     text-indent: 0;
     flex: 1;
 }
 
-#h_1 {
+.h_1 {
     font-size: 9pt;
     line-height: 20px;
     font-family: Playfair Display;
 }
 
-#h_2 {
+.h_2 {
     font-size: 36pt;
     line-height: 40px;
 }
 
-#h_right {
+.h_right {
     flex: 2;
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -50,13 +50,13 @@ body {
     font-size: 9pt;
 }
 
-#content_menu {
+.content_menu {
     display: flex;
     margin: 10px;
     flex: 1 1 1;
 }
 
-#left_s {
+.left_s {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -72,19 +72,19 @@ body {
     box-shadow: 50px 50px 20px rgba(0, 0, 0, 0.492);
 }
 
-#left_s div {
+.left_s div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#l_1 {
+.l_1 {
     display: flex;
     font-weight: 900;
     margin-bottom: 10px;
 }
 
-#l_2 {
+.l_2 {
     display: flex;
     justify-content: end;
     border-radius: 30px 0px 0px 30px;
@@ -94,14 +94,14 @@ body {
     margin-bottom: 10px;
 }
 
-#l_column_2 {
+.l_column_2 {
     flex: 2;
     background-color: rgb(200, 255, 0);
     width: 100%;
     border-radius: 200px 200px 0 0;
 }
 
-#mid_s {
+.mid_s {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -116,30 +116,30 @@ body {
     box-shadow: 0px 50px 20px rgba(0, 0, 0, 0.492);
 }
 
-#mid_s div {
+.mid_s div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#m_column_1 {
+.m_column_1 {
     justify-content: space-between;
 }
 
-#m_1 {
+.m_1 {
     display: flex;
     font-weight: 900;
     margin-bottom: 10px;
 }
 
-#m_column_2 {
+.m_column_2 {
     flex: 2;
     background-color: rgb(200, 255, 0);
     width: 100%;
     border-radius: 200px 200px 0 0;
 }
 
-#right_s {
+.right_s {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -156,19 +156,19 @@ body {
     z-index: -1;
 }
 
-#right_s div {
+.right_s div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-#r_1 {
+.r_1 {
     display: flex;
     font-weight: 900;
     margin-bottom: 10px;
 }
 
-#r_column_2 {
+.r_column_2 {
     flex: 2;
     background-color: rgb(200, 255, 0);
     width: 100%;
