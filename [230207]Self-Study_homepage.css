@@ -19,7 +19,7 @@ ul {
 body {
     background-color: rgb(255, 255, 255);
 }
-#header {
+.header {
     width: 100%;
     position: absolute;
     top: 0;
@@ -31,7 +31,7 @@ table {
     width: 100%;
     border-collapse: collapse;
 }
-#contents {
+.contents {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,7 +42,7 @@ table {
     line-height: 100%;
     width: 100%;
 }
-#img01 img {
+.img01 img {
     width: 200px;
     height: auto;
     border: 1px solid black;
@@ -52,7 +52,7 @@ table {
     top: 200px;
     z-index: -1;
 }
-#img02 img {
+.img02 img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -62,7 +62,7 @@ table {
     top: 400px;
     z-index: -1;
 }
-#img03 img {
+.img03 img {
     width: 120px;
     height: auto;
     border: 1px solid black;
@@ -72,7 +72,7 @@ table {
     z-index: -1;
     rotate: -15deg;
 }
-#img04 img {
+.img04 img {
     width: 100px;
     height: auto;
     border: 1px solid black;
@@ -82,7 +82,7 @@ table {
     z-index: -1;
     rotate: 15deg;
 }
-#img05 img {
+.img05 img {
     width: 280px;
     height: auto;
     border: 1px solid black;
@@ -91,7 +91,7 @@ table {
     bottom: 100px;
     z-index: -2;
 }
-#img06 img {
+.img06 img {
     width: 300px;
     height: auto;
     border: 1px solid black;
@@ -100,7 +100,7 @@ table {
     top: 100px;
     z-index: -3;
 }
-#img07 img {
+.img07 img {
     width: 240px;
     height: auto;
     border: 1px solid black;
@@ -109,7 +109,7 @@ table {
     top: 150px;
     z-index: -3;
 }
-#img08 img {
+.img08 img {
     width: 200px;
     height: auto;
     border: 1px solid black;
@@ -118,7 +118,7 @@ table {
     bottom: 100px;
     z-index: -1;
 }
-#footer {
+.footer {
     position: absolute;
     bottom: 0;
     left: 0;
