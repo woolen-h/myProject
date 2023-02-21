@@ -55,7 +55,7 @@ img {
   margin-left: 20px;
   font-size: 10pt;
   color: rgb(137, 137, 137);
-  
+
 }
 
 .big_menu {
@@ -111,6 +111,13 @@ input[type="search"] {
   font-weight: 600;
 }
 
+/*드롭다운 메뉴 구현*/
+
+.dropdown-content {
+  display: none;
+}
+
+/*드롭다운 메뉴 끝*/
 .line {
   font-weight: 300;
 }

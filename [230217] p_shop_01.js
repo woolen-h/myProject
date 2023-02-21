@@ -35,3 +35,15 @@ const searchBtn = document.getElementById("search-btn");
 searchBtn.addEventListener("click", function () {
   search.focus();
 });
+
+//드롭다운 메뉴
+var menu = document.querySelector(".women");
+var dropdown = menu.querySelector(".dropdown-content");
+
+menu.addEventListener("mouseover", function() {
+  dropdown.style.display = "block";
+});
+
+menu.addEventListener("mouseout", function() {
+  dropdown.style.display = "none";
+});
